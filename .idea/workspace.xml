@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fa44e5f-0873-4506-849b-872ee19d6f95" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Andrés_Miranda_Arias.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Andrés_Miranda_Arias.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Model.py" afterDir="false" />
@@ -79,7 +78,7 @@
       <workItem from="1586476102919" duration="3302000" />
       <workItem from="1586487522706" duration="3480000" />
       <workItem from="1586491156090" duration="1471000" />
-      <workItem from="1586493460735" duration="823000" />
+      <workItem from="1586493460735" duration="5005000" />
     </task>
     <servers />
   </component>
@@ -87,22 +86,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="148" key="GridCell.Tab.0.bottom" timestamp="1586491124987">
+    <state x="403" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586498049273">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="148" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586491124987" />
-    <state width="1323" height="148" key="GridCell.Tab.0.center" timestamp="1586491124986">
+    <state x="403" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1586498049273" />
+    <state width="1323" height="373" key="GridCell.Tab.0.bottom" timestamp="1586498738484">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="148" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586491124986" />
-    <state width="1323" height="148" key="GridCell.Tab.0.left" timestamp="1586491124986">
+    <state width="1323" height="373" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586498738484" />
+    <state width="1323" height="373" key="GridCell.Tab.0.center" timestamp="1586498738484">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="148" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586491124986" />
-    <state width="1323" height="148" key="GridCell.Tab.0.right" timestamp="1586491124986">
+    <state width="1323" height="373" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586498738484" />
+    <state width="1323" height="373" key="GridCell.Tab.0.left" timestamp="1586498738483">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="148" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586491124986" />
+    <state width="1323" height="373" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586498738483" />
+    <state width="1323" height="373" key="GridCell.Tab.0.right" timestamp="1586498738484">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="373" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586498738484" />
     <state x="184" y="6" key="SettingsEditor" timestamp="1586488194079">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -117,6 +120,6 @@
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1586479322927" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ImageClassifier$Main.coverage" NAME="Main Coverage Results" MODIFIED="1586488997160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ImageClassifier$Main.coverage" NAME="Main Coverage Results" MODIFIED="1586498656210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
