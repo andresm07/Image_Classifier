@@ -2,6 +2,8 @@ from keras.models import Sequential
 from keras.layers import Dense, Dropout, Flatten
 from keras.layers.convolutional import Conv2D, MaxPooling2D
 from keras.constraints import maxnorm
+from keras.optimizers import SGD
+from ImagesDataset import x_train, y_train
 
 # TODO: 1. Initialize model as a sequential type to add layers in order
 model = Sequential()
@@ -50,3 +52,9 @@ model.add(dropout_layer)
 # activation: "softmax" because we are calculating probabilities for each of the 10 categories
 external_dense_layer = Dense(units=10, activation="softmax")
 model.add(external_dense_layer)
+
+# TODO: 8. Compile Model
+model.compile(optimizer=SGD(lr=0.01), loss="categorical_crossentropy", metrics=["accuracy"])
+
+# TODO: 9. Fit Model
+model.fit(x=x_train, y=y_train, epochs=10, batch_size=32)
