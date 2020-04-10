@@ -5,6 +5,7 @@
       <w>convolutional</w>
       <w>convulutional</w>
       <w>crossentropy</w>
+      <w>protobuf</w>
       <w>relu</w>
       <w>softmax</w>
     </words>

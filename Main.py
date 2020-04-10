@@ -1,14 +1,15 @@
 from Model import *
 from TrainedModelTest import *
+from ProtobufFileCreation import *
 
 
 def main():
     # TODO: 8. Compile Model
     # model.compile(optimizer=SGD(lr=0.01), loss="categorical_crossentropy", metrics=["accuracy"])
-    #
+
     # TODO: 9. Fit Model
     # model.fit(x=x_train, y=y_train, epochs=1, batch_size=32)
-    #
+
     # TODO: 10. Save Model to H5 File
     # model.save(filepath="ImageClassifierModel.h5")
 
@@ -17,7 +18,10 @@ def main():
     # print(f"Test Accuracy: {results[1]}")
 
     # TODO: 12. Predict Previously Trained Model
-    print(f"Prediction: {labels_array[max_prediction_index]}")
+    # print(f"Prediction: {labels_array[max_prediction_index]}")
+
+    # TODO: 13. Save Model to Protobuf File
+    tf.train.write_graph(frozen_graph, ".", "ImageClassifierModel.pb", False)
 
 
 if __name__ == "__main__":
