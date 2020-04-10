@@ -3,4 +3,5 @@ Image Classifier made with Keras + TensorFlow based on the StackSkills Course: T
 
 # Libraries
 TensorFlow: www.tensorflow.org
+
 Keras: www.keras.io
